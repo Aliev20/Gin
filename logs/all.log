@@ -1,3 +1,17 @@
 time="2023-04-02T16:19:00+03:00" level=trace msg=hello func="main.main()" file="app.go:22"
 time="2023-04-02T16:26:13+03:00" level=info msg="Create router" func="main.main()" file="app.go:20"
 time="2023-04-02T16:26:13+03:00" level=info msg="Server started to: http://localhost:8000" func="main.start()" file="app.go:43"
+time="2023-04-02T18:01:16+03:00" level=info msg="Create router" func="main.main()" file="app.go:20"
+time="2023-04-02T18:01:16+03:00" level=info msg="Server started to: http://localhost:8000" func="main.start()" file="app.go:43"
+[36mINFO[0m[2023-04-02T18:02:44+03:00]app.go:20 main.main() Create router                                
+[36mINFO[0m[2023-04-02T18:02:44+03:00]app.go:43 main.start() Server started to: http://localhost:8000     
+time="2023-04-02T18:03:03+03:00" level=info msg="Create router" func="main.main()" file="app.go:20"
+time="2023-04-02T18:03:03+03:00" level=info msg="Server started to: http://localhost:8000" func="main.start()" file="app.go:43"
+[36mINFO[0m[2023-04-02T18:03:22+03:00]app.go:20 main.main() Create router                                
+[36mINFO[0m[2023-04-02T18:03:22+03:00]app.go:43 main.start() Server started to: http://localhost:8000     
+[36mINFO[0m[2023-04-02T18:50:43+03:00]app.go:17 main.main() Create router                                
+[36mINFO[0m[2023-04-02T18:50:43+03:00]config.go:23 github.com/Aliev20/Gin/internal/config.GetConfig.func1() Read application config                      
+[36mINFO[0m[2023-04-02T18:50:43+03:00]app.go:42 main.start() Server started to: http:// 127.0.0.1:8000    
+[36mINFO[0m[2023-04-02T18:50:59+03:00]app.go:17 main.main() Create router                                
+[36mINFO[0m[2023-04-02T18:50:59+03:00]config.go:23 github.com/Aliev20/Gin/internal/config.GetConfig.func1() Read application config                      
+[36mINFO[0m[2023-04-02T18:50:59+03:00]app.go:42 main.start() Server started to: http://127.0.0.1:8000     
